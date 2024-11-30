@@ -15,7 +15,7 @@ function main(event) {
   }
    
   return new Response(`
-   <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -36,7 +36,7 @@ function main(event) {
      <style>
 /* appling google font over the website  */
 body{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
 }
 /* styling menu icon */
@@ -110,7 +110,7 @@ body{
     position: relative;
 }
 .link::after{
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     transform: scaleX(0);
@@ -500,7 +500,7 @@ footer .link-group a:hover{
             Hello! I Am <br /><span class="c-orange">Parthiv Patel</span>
           </h2>
           <p class="text-muted">
-            I"m A Web Developer having 5 years of experience in expertise of
+            I'm A Web Developer having 5 years of experience in expertise of
             creating website with fully responsive Also with backend part too.
           </p>
           <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
@@ -1045,16 +1045,16 @@ $(document).ready(function () {
 
 // javascript for sticky navbar even if u scroll the navbar will be fixed
 document.addEventListener("DOMContentLoaded", function(){
-  window.addEventListener("scroll", function() {
+  window.addEventListener('scroll', function() {
       if (window.scrollY > 50) {
-        document.getElementById("navbar-top").classList.add("fixed-top");
+        document.getElementById('navbar-top').classList.add('fixed-top');
         // add padding top to show content behind navbar
-        navbar_height = document.querySelector(".navbar").offsetHeight;
-        document.body.style.paddingTop = navbar_height + "px";
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
       } else {
-        document.getElementById("navbar-top").classList.remove("fixed-top");
+        document.getElementById('navbar-top').classList.remove('fixed-top');
          // remove padding top from body
-        document.body.style.paddingTop = "0";
+        document.body.style.paddingTop = '0';
       } 
   });
 }); 
@@ -1097,7 +1097,8 @@ document.addEventListener("copy",function(e){
     <link rel="stylesheet" href="js/script.js">
   </body>
 </html>
-  ", {
+  
+`,{
     headers: {
       "Content-Type": "text/html; charset=utf-8"
     }
