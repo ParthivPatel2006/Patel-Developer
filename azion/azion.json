@@ -1,0 +1,42 @@
+{
+  "name": "Patel-Developer-20241130092524",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241130092523",
+  "not-first-run": true,
+  "function": {
+    "id": 33049,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 31786,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 191405
+  },
+  "application": {
+    "id": 1732951191,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1732956903,
+    "name": "Patel-Developer-20241130092524",
+    "domain_name": "oncmdvu3v3.map.azionedge.net",
+    "url": "https://oncmdvu3v3.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 328920,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
