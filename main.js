@@ -710,7 +710,7 @@ footer .link-group a:hover{
                 <span class="badge bg-secondary badge-pill">JavaScript</span>
                 <span class="badge bg-secondary badge-pill mb-2">Web App</span
                 ><br />
-                <a href="#" class="read-more-btn link">Read More</a>
+                <a href="https://parthivpatel2006.github.io/Netflix-clone/" class="read-more-btn link">Read More</a>
               </div>
             </div>
           </div>
